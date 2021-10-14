@@ -13,7 +13,7 @@ module.exports = {
 
         await annotation.save();
     }
-
+     
     return response.json(annotation); /*mesmo eu alterando ou não,ele vai dar o retorno do annotations */
   }
 }
